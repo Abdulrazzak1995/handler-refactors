@@ -21,7 +21,10 @@
       { name: 'fifth', args: ['everafter', -1, 2], expected: 'r' },
     ];
 
-    function getPartialString(str, beginIndex, endIndex) { }
+    function getPartialString(str, beginIndex, endIndex) { 
+      const result = str.substr(beginIndex, endIndex);
+      return result;
+    }
 
     testing(getPartialString, getPartialStringTests);
   </script>

@@ -19,7 +19,11 @@
       { name: 'third', args: [-1999, 409], expected: 'X: -1999\nY: 409' },
     ]
 
-    function formatCoordinates(x, y) { }
+    function formatCoordinates(x, y) {
+const formatCoordinates = "X: " + x + "\nY" + y;
+return formatCoordinates;
+
+     }
 
     testing(formatCoordinates, formatCoordinatesTests);
   </script>

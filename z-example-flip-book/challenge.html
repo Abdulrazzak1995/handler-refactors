@@ -16,7 +16,13 @@
       { name: 'third', args: ['Fd-Df'], expected: 'FD-DF' },
     ]
 
-    function reverseAndUpper(str) { }
+    function reverseAndUpper(str) {
+      const upperCased = str.toUpperCase();
+      const splitted = upperCased.split();
+      const reversed = splitted.reverse();
+      const reversedUppercase = reversed.join("");
+      return reversedUppercase;
+     }
 
     testing(reverseAndUpper, reverseAndUpperTests);
   </script>
