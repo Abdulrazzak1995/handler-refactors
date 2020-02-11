@@ -18,7 +18,7 @@ And 3 examples to study:
 
 * [Color Palate](./z-example-color-palate)
 * [Flip Book](./z-example-flip-book)
-* [Mouse Coordinates](./z-example-mouse-coordinates)
+* [Mouse Coordinates](https://abdulrazzak1995.github.io/z-example-mouse-coordinates/challenge.html)
 
 ---
 
